@@ -1,14 +1,27 @@
-    .App-header {
-    background-color: #61dafb;
- 
-   
-    align-items: center;
+/* barra de navegacion*/
+.Portafolio{
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+}
+.nav-item{
+  padding: 10px;
+}
+.navigationbar{
+  background-color: #2b292970;
+  padding: 10px;
+  margin:  40px auto;
+  border-radius: 50px;
+  height: auto;
+  width: auto;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center; 
+}
 
-  }
-  .Portafolio{
-    background-color: blueviolet;
-  }
 
-  
-
-/* #61dafb celeste */
