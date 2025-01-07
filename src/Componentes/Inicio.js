@@ -1,5 +1,5 @@
 import React from "react";
-function Navbar (){
+function Inicio (){
     return(
         <div class="firstpart">
             <div class="navigationbar">
@@ -21,13 +21,10 @@ function Navbar (){
                     </li>
                 </ul>
             </div>
-            <div class="Profile">
-
-            </div> 
         </div>
            
 
     );
 }
-export default Navbar;
+export default Inicio;
 

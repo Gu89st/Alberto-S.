@@ -1,27 +1,22 @@
 /* barra de navegacion*/
-.Portafolio{
-  background-color: #000000;
-  padding: 0;
+*{
+  background-color: #031479;
+}
+.App{
   margin: 0;
+  padding: 0;
+
 }
-.nav-item{
-  padding: 10px;
+.navbar .navbar-toggler {
+  border-color: white; /* Cambia el color del borde del botón */
 }
-.navigationbar{
-  background-color: #2b292970;
-  padding: 10px;
-  margin:  40px auto;
-  border-radius: 50px;
-  height: auto;
-  width: auto;
-  max-width: 700px;
-  display: flex;
-  justify-content: center;
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
 }
-.nav {
-  display: flex; 
-  flex-wrap: wrap;
-  justify-content: center; 
+
+.navbar-nav .nav-link {
+  color: white; /* Cambia el color de las letras de los enlaces */
 }
 
 
