@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 #componententes
 Imagenes
-Mensaje.js
+/src/Mensaje.js
