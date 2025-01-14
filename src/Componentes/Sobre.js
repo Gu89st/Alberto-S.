@@ -1,10 +1,11 @@
 import React from "react";
 
+
 function Sobre(){
-    return(
-        <div>
-            holac
-        </div>
-    );
+    return (
+       <div>
+        ht
+       </div>
+      );
 }
 export default Sobre

@@ -1,14 +1,20 @@
 /* barra de navegacion*/
 *{
-  background-color: #031479;
+  background-color: #304A6E;
 }
 .App{
-  margin: 0;
-  padding: 0;
+  height:0px;
+  padding: 20px;
 
 }
+.navbar{
+  transition: 0.3s;
+  height: 100px;
+  z-index: 1000;
+}
+
 .navbar .navbar-toggler {
-  border-color: white; /* Cambia el color del borde del botón */
+  border-color: white;
 }
 
 .navbar .navbar-toggler-icon {
@@ -18,5 +24,61 @@
 .navbar-nav .nav-link {
   color: white; /* Cambia el color de las letras de los enlaces */
 }
+.img-custom {
+  width: 100%; 
+  height: auto;
+  object-fit: cover; 
+}
+.card-custom{
+  margin-top: 30px;
+}
 
+.ThirdPart {
+  margin-top: 80px;
+  font-family: monospace; 
+}
 
+.Parrafoinicial{
+  color:#c0d0ef;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+} 
+
+.Parrafoinicial{
+  display: flex;
+  max-width: 530px;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 25px;
+}
+.text{
+  color: #C2C6CE;
+  font-size: 20px;
+}
+.Form{
+
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.Form .boton{
+  margin:0;
+  margin-top: 10px;
+  color: #0F1C30 !important;
+  background-color: #c0d0ef ;
+ 
+}
+/*--*/
+.mensaje{
+  
+  margin-top: 80px;
+  text-align: center;
+}
+.mesa{
+  font-size: 30px;
+  
+}
