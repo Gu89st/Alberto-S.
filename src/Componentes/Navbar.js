@@ -21,9 +21,9 @@ const MyNavbar = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="navbar-nav me-auto" variant="underline">
+                    <Nav className="navbar-nav me-auto custom-navbar" variant="underline">
                         {Connection.map((link, index) => (
-                            <Nav.Link
+                            <Nav.Link className="nav-link"
                                 key={index} as={Link}
                                 to={link.path} onClick={handleLinkClick}>
                                 {link.label}
