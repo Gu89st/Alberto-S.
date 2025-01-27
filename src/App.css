@@ -141,4 +141,28 @@ color: #C2C6CE !important;
   justify-content: center;
   align-items: center;
 }
-
+/**/
+.sobre{
+margin-top: 100px;
+padding: 20px;
+}
+.cuerposobre h1,.cuerposobre h3,.cuerposobre h4{
+  color: #ffffff;
+  background-color: #668DC0;
+ padding: 5px;
+}
+.cuerposobre{
+  background-color: #668DC0;
+}
+.Custom-sobre{
+  top: 40px;
+  width: 100%; 
+  max-width: 1000px; 
+  height: auto; 
+}
+.intercon{
+  padding: 50px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}

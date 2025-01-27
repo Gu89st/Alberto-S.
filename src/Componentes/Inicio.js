@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card';
 import Logo3 from "../Imagenes/Logo2.png";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 import Carousel from 'react-bootstrap/Carousel';
 import Imagenescarrusel from "./Carrusel"
 
@@ -21,7 +20,7 @@ function Inicio (){
                             <div className="text-end parrafo2">
                                 <Card.Title className="text-end text-justify display-5">Alberto Sarapura</Card.Title>
                                 <Card.Text className="custom-text">
-                                    Soy un estudiante de Ingeniería de Sistemas con una sólida 
+                                    Soy estudiante de Ingeniería de Sistemas con una sólida 
                                     capacidad para inspirar colaboración a través de mi entusiasmo 
                                     y compromiso. Me destaco por cumplir mis responsabilidades con 
                                     excelencia, entregando trabajos de alta calidad que reflejan un
@@ -37,10 +36,10 @@ function Inicio (){
                                 <a href="./CV.pdf" download>
                                 <Button  className="mt-4 butoncv" >Mí CV</Button>  
                                 </a>
-                            </Card.Body>
-                        </Col>
-                    </Row>
-                </Card>
+                        </Card.Body>
+                    </Col>
+                </Row>
+            </Card>
             
             <div className="carrusel">
                 <h1 className="text-center titulo-carrusel">Tecnoligias y herramientas de programacion</h1>
