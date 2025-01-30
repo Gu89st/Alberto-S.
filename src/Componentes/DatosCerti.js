@@ -5,8 +5,8 @@ import Icpna from "../Imagenes/Ipcna.png"
 
 const Datacerti=[
     { titulo:"Ingles", institucion:"Icpna", img:Icpna},
-    { titulo:"Git & Github", institucion:"Desafio Latam", img:Gitcer},
-    { titulo:"CSS", institucion:"Desafio Latam", img:csscer},
-    { titulo:"SQL", institucion:"Desafio Latam", img:Sql},
+    { titulo:"Git & Github", institucion:"Desafío Latam", img:Gitcer},
+    { titulo:"CSS", institucion:"Desafío Latam", img:csscer},
+    { titulo:"SQL", institucion:"Desafío Latam", img:Sql},
 ];
 export default Datacerti

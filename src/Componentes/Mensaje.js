@@ -79,11 +79,11 @@ function Contactame() {
       </div>
       <Form className="Form text-center" onSubmit={handleSubmit}>
         <InputField
-          label="Ingrese su nombre" type="text" name="name" placeholder="Tu nombre" feedback={errors.name}onChange={handleChange} value={formData.name}/>
+          label="Ingresé su nombre" type="text" name="name" placeholder="Tu nombre" feedback={errors.name}onChange={handleChange} value={formData.name}/>
         <InputField
-          label="Correo Electrónico"type="email"name="email"placeholder="name@example.com"feedback={errors.email} onChange={handleChange}value={formData.email}/>
+          label="Ingresé su correo Electrónico"type="email"name="email"placeholder="name@example.com"feedback={errors.email} onChange={handleChange}value={formData.email}/>
         <InputField
-          label="Mensaje"type="textarea"name="mensaje"placeholder="Escribe tu mensaje"onChange={handleChange}feedback={errors.mensaje}value={formData.mensaje}/>
+          label="Ingresé su mensaje"type="textarea"name="mensaje"placeholder="Escribe tu mensaje"onChange={handleChange}feedback={errors.mensaje}value={formData.mensaje}/>
         <Button className="boton" type="submit">Enviar mensaje</Button>
       </Form>
     </div>

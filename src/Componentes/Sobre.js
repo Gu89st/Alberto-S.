@@ -29,7 +29,7 @@ function Sobre(){
                             <Card.Title className="text-center " ><h1>Mis habilidades</h1></Card.Title>
                             <h3>Colaboración efectiva</h3>
                             <h3>Compromiso con la calidad </h3>
-                            <h3>Innovacion en soluciones</h3>
+                            <h3>Innovación en soluciones</h3>
                         </Card.Body>
                     </Card>
                 </Col>

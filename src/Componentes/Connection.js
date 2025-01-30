@@ -9,7 +9,7 @@ import Gracias from "./Gracias";
 
 
 const Connection=[
-        { path: '/Sobre', element: <Sobre /> , label:"Sobre Mi"},
+        { path: '/Sobre', element: <Sobre /> , label:"Sobre Mí"},
         { path: '/Certificaciones', element: <Certificaciones />, label:"Mis cetirificaciones" },
         { path: '/Inicio', element: <Inicio />, label:"Inicio" },
         { path: '/Proyectos', element: <Proyectos />, label:"Proyectos" },

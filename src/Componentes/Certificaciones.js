@@ -8,7 +8,7 @@ import Datacerti from "./DatosCerti";
 const Certificaciones=() =>{
   return (
     <div className="secondpart">
-      <h1 className="text-center text-white mb-4">Mis Certificaciones</h1>
+      <h1 className="text-center text-white mb-4">Mís Certificaciones</h1>
       <Row xs={1} md={3} className="g-4">
         {Datacerti.map((cert, idx)=>(
           <Col key={idx} className="certificado">
