@@ -39,7 +39,7 @@ function Sobre(){
                             <Card.Title className="text-center"><h1>Mis hobbies</h1></Card.Title>
                             <h3>Ciclismo</h3>
                             <h3>Leer </h3>
-                            <h3>Futbol</h3>
+                            <h3>Fútbol</h3>
                             <h3>Ejercicio</h3>
                             <h3>Programar</h3>
                         </Card.Body>
