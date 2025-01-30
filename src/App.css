@@ -15,7 +15,7 @@
 }
 
 .navbar .navbar-toggler {
-  border-color: white;
+  border-color: #C2C6CE;
 }
 
 .navbar .navbar-toggler-icon {
@@ -23,7 +23,7 @@
 }
 
 .navbar-nav .nav-link {
-  color: white; 
+  color: #C2C6CE ; 
 }
 .custom-navbar{
   font-size: 15px;
@@ -89,10 +89,18 @@ color: #C2C6CE !important;
 .Proy-part{
   margin-top: 80px;
 }
+.card-custom, .card-custom-proy{
+  transition: transform 0.2s;
+}
+.card-custom:hover, .card-custom-proy:hover {
+  transform: scale(1.05);
+}
+.card-custom-proy{
+  border:2px solid #0F1C30 !important;
+}
 /*Incio*/
 .firstpart{
   margin-top: 125px;
-  
 }
 .firstpart .Custom-carI{
   width: 100%;
@@ -144,7 +152,7 @@ color: #C2C6CE !important;
 /**/
 .sobre{
 margin-top: 100px;
-padding: 20px;
+padding: 5px;
 }
 .cuerposobre h1,.cuerposobre h3,.cuerposobre h4{
   color: #ffffff;
@@ -165,4 +173,11 @@ padding: 20px;
   display: flex;
   align-items: right;
   justify-content: right;
+}
+/**/
+.iconos-inicio{
+  display: flex;
+padding: 5px;
+  align-items: center;
+  gap: 10px;
 }

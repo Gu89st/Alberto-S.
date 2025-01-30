@@ -6,7 +6,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import Imagenescarrusel from "./Carrusel"
-
+import { Link } from "react-router-dom";
+import DataInicio from "./DataInicio";
 function Inicio (){
     return(
         <div className="firstpart">
@@ -32,6 +33,15 @@ function Inicio (){
                                     permite contribuir de manera significativa tanto en el ámbito 
                                     académico como en la comunidad.
                                 </Card.Text>
+                            </div>
+                            <div className="iconos-inicio">
+                                {DataInicio.map((Ini, idx)=>(
+                                    <Col key={idx} >
+                                        <Link to={Ini.Link} target="_blank">
+                                        <img src={Ini.img} alt="Icono" style={{ width: '30px', height: '30px', marginLeft: '5px' }} />
+                                        </Link>
+                                    </Col>   
+                                ))}    
                             </div>
                                 <a href="./CV.pdf" download>
                                 <Button  className="mt-4 butoncv" >Mí CV</Button>  

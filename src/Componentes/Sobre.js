@@ -10,6 +10,7 @@ function Sobre(){
     return (
     <div className="sobre">
         <Container>
+            <h1 className="text-center tytle-sobre link-light">Sobre Mí</h1>
             <Row >
                 <Col>
                     <Card className="h-100">
@@ -51,7 +52,7 @@ function Sobre(){
         <Card className="Custom-sobre">
             <Row className="g-0">
                 <Col md={4} >
-                    <Card.Img variant="top" src={intercon} style={{width:'90%', height: '90%' }}/>
+                    <Card.Img variant="top" src={intercon} style={{width:'100%', height: '100%' }}/>
                 </Col>
                 <Col md={8}>
                     <Card.Body className="d-flex flex-column align-items-center ">

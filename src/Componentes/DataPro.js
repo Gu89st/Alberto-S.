@@ -1,8 +1,10 @@
-import Git from "../Imagenes/Logo2.png"
 import github from "../Imagenes/Github.png"
 import Terre from "../Imagenes/Proyectotmt.png"
 import css from "../Imagenes/CSS.png"
 import html from "../Imagenes/html.png"
+import Portafolio from "../Imagenes/Portafolio.png"
+import Boostrap from "../Imagenes/Boostrap.png"
+import React from "../Imagenes/React1.png"
 
 const Datapro=[
     {
@@ -14,9 +16,18 @@ const Datapro=[
         html: html,
         Subido: "Subido en: ",
         icono: github,
-        link: "https://github.com/Gu89st/TiendaVirtual" // Enlace correcto
+        link: "https://github.com/Gu89st/TiendaVirtual"
     },
-    {   img:github,titulo:"Ingles", Descripcion:"......", Tencologias:"Tencologias" , Subido:"Subido en ", icono:Git},
-    {   img:Git,titulo:"Ingles", Descripcion:"......", Tencologias:"Tencologias" , Subido:"Subido en ", icono:Git},
+    {   
+        img:Portafolio,
+        titulo:"Mi portafolio", 
+        Descripcion:"Proyecto creado desde 0, personalizado y de manera responsive, utilizando las siguientes: ", 
+        Tencologias:"Tencologias", 
+        css: css,
+        Boostrap: Boostrap,
+        React:React,
+        Subido:"Subido en ", 
+        icono: github
+    },
 ];
 export default Datapro
