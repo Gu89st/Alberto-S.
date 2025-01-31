@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Alberto-S./static/css/main.e1505989.css",
+    "main.js": "/Alberto-S./static/js/main.78c2023c.js",
+    "static/js/453.7d1ffe6d.chunk.js": "/Alberto-S./static/js/453.7d1ffe6d.chunk.js",
+    "static/media/Intercon.png": "/Alberto-S./static/media/Intercon.eae5b1e3d10a85ebb541.png",
+    "static/media/instagram.png": "/Alberto-S./static/media/instagram.8e408da00539cdef4629.png",
+    "static/media/Portafolio.png": "/Alberto-S./static/media/Portafolio.923c3c9d8dc6b2b32128.png",
+    "static/media/Proyectotmt.png": "/Alberto-S./static/media/Proyectotmt.ab9bbe383bbe2bd114a6.png",
+    "static/media/MicrosoftVisual.png": "/Alberto-S./static/media/MicrosoftVisual.b6ca4049d4c5c164129f.png",
+    "static/media/SQL.png": "/Alberto-S./static/media/SQL.0d98d1ef935dc2967d2a.png",
+    "static/media/Gitcer.png": "/Alberto-S./static/media/Gitcer.f12e131190b427567f37.png",
+    "static/media/Logo2.png": "/Alberto-S./static/media/Logo2.8b1865702c7a8a1abde9.png",
+    "static/media/Ipcna.png": "/Alberto-S./static/media/Ipcna.765a3fb6d4e42f3074bc.png",
+    "static/media/css-certi.png": "/Alberto-S./static/media/css-certi.cb0df2ca54c14ed24a3e.png",
+    "static/media/React1.png": "/Alberto-S./static/media/React1.598c274386446bb54ac6.png",
+    "static/media/Github.png": "/Alberto-S./static/media/Github.f11021803f68852df283.png",
+    "static/media/CSS.png": "/Alberto-S./static/media/CSS.6eb18ad7d8487a413955.png",
+    "static/media/Git.png": "/Alberto-S./static/media/Git.f43e2ebc6cb742103593.png",
+    "static/media/html.png": "/Alberto-S./static/media/html.6e930594286d8afe4c79.png",
+    "static/media/Mysql.png": "/Alberto-S./static/media/Mysql.a7333bc1de9ee8057bdb.png",
+    "static/media/linkedin.png": "/Alberto-S./static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/js.png": "/Alberto-S./static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/Alberto-S./index.html",
+    "main.e1505989.css.map": "/Alberto-S./static/css/main.e1505989.css.map",
+    "main.78c2023c.js.map": "/Alberto-S./static/js/main.78c2023c.js.map",
+    "453.7d1ffe6d.chunk.js.map": "/Alberto-S./static/js/453.7d1ffe6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1505989.css",
+    "static/js/main.78c2023c.js"
+  ]
+}
